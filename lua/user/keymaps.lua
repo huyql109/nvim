@@ -58,7 +58,7 @@ keymap("n", "<C-s>", "<Esc>:w<cr>", opts)
 
 -- Insert --
 -- Press jk fast to enter
-keymap("i", "jk", "<ESC>", opts)
+-- keymap("i", "jk", "<ESC>", opts)
 
 -- Swtich tabs
 keymap("i", "<A-1>", "<Esc>:BufferLineGoToBuffer 1<cr>", opts)

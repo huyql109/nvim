@@ -206,8 +206,8 @@ return packer.startup(function(use)
     cmd = "RnvimrToggle",
     config = function()
       vim.g.rnvimr_draw_border = 1
-      vim.g.rnvimr_pick_enable = 1
-      vim.g.rnvimr_bw_enable = 1
+      vim.g.rnvimr_enable_picker = 1
+      vim.g.rnvimr_enable_bw = 1
     end,
   }
   
