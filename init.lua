@@ -1,5 +1,6 @@
 require "user.keymaps"
 require "user.autocommands"
+require "user.kanagawa"
 require "user.colorscheme"
 require "user.cmp"
 require "user.lsp"
